@@ -1,4 +1,8 @@
 * {
+  margin: 0;
+}
+
+* {
   font-family: "Nunito Sans";
 }
 
@@ -31,7 +35,31 @@ h2 {
 }
 
 header {
+  padding: 3.25rem 0;
+}
+header .main-header {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn-primary {
+  background-color: #5AC4F2;
+  color: #FFFFFF;
+}
+.btn-primary:hover {
+  background-color: #0E83B6;
 }
 
 /*# sourceMappingURL=main.css.map */
