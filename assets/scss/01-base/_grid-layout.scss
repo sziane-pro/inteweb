@@ -1,0 +1,17 @@
+.global-wrapper{
+    max-width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &--maxed{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+
+    &--wide{
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

@@ -1,0 +1,17 @@
+$font-primary: 'Nunito Sans';
+
+*{
+    font-family: $font-primary;
+}
+
+h1{
+    font-size: 3.875rem;
+    line-height: 5rem;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 900;
+}

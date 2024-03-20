@@ -1,0 +1,15 @@
+{
+    "name": "inteweb",
+    "version": "1.0.0",
+    "description": "inteweb",
+    "scripts": {
+      "sass:watch": "sass --watch assets/scss/:assets/css/"
+    },
+    "keywords": [],
+    "author": "Samy",
+    "license": "ISC",
+    "devDependencies": {
+      "sass": "^1.49.0"
+    }
+  }
+  
