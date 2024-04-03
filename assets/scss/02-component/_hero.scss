@@ -1,0 +1,57 @@
+.hero-wrapper{
+    background-color: $color-primary-dark;
+    margin-top: -8rem;
+    position: relative;
+
+    @media screen and (min-width: 1280px){
+        &::after{
+            content: url('data:image/svg+xml,<svg width="666" height="891" viewBox="0 0 666 891" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M258 385H462L666 0V891H0L258 385Z" fill="url(%23paint0_linear_37_318)"/><defs><linearGradient id="paint0_linear_37_318" x1="333" y1="385" x2="603.5" y2="860.5" gradientUnits="userSpaceOnUse"><stop stop-color="%235AC4F2"/><stop offset="1" stop-color="%230E83B6"/></linearGradient></defs></svg>');
+            position: absolute;
+            bottom: -6px;
+            right: 0;
+        }
+    }
+    
+    .hero{
+        padding: 10rem 0;
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (min-width: 1280px){
+            padding: 13rem 0;
+            flex-direction: row;
+            position: relative;
+            z-index: 1;
+            align-items: center;
+        }
+
+        .hero-content{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            .h1-title{
+                color: $color-white;
+    
+                @media screen and (min-width: 1280px){
+                    width: 90%;
+                }
+            }
+            .subtitle{
+                color: $color-white;
+                @media screen and (min-width: 1280px){
+                    width: 72%;
+                }
+            }
+        }
+        .hero-image{
+            display: none;
+
+            @media screen and (min-width: 1280px){
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: rotateY('180deg');
+            }
+        }
+    }
+}
