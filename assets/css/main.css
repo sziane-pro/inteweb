@@ -60,7 +60,7 @@ h2 {
 }
 
 header {
-  padding: 3.25rem 0;
+  padding: 1.25rem 0;
   position: relative;
   z-index: 2;
 }
@@ -68,6 +68,10 @@ header .main-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+header .main-header img {
+  max-width: 50px;
 }
 
 .btn {
@@ -147,6 +151,95 @@ header .main-header {
     align-items: center;
     transform: rotateY("180deg");
   }
+}
+
+.category-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin: 5rem auto;
+}
+.category-wrapper .h2-title {
+  width: 70%;
+  text-align: center;
+  align-self: center;
+}
+.category-wrapper .categories {
+  display: flex;
+  gap: 2rem;
+}
+.category-wrapper .categories .category {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  padding: 3rem 1rem;
+  background-color: #fff;
+}
+.category-wrapper .categories .category .h3-title {
+  font-size: 2rem;
+}
+.category-wrapper .categories .category .subtitle {
+  text-align: center;
+}
+.category-wrapper .categories .category img {
+  width: 90px;
+}
+
+.newsletter-wrapper {
+  background-color: #30A0D1;
+  padding: 4rem 3rem;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 5rem auto;
+}
+.newsletter-wrapper .newsletter-text {
+  width: 50%;
+}
+.newsletter-wrapper .newsletter {
+  display: flex;
+  gap: 1.5rem;
+}
+.newsletter-wrapper .newsletter input {
+  background-color: rgba(255, 255, 255, 0.0823529412);
+  border: none;
+  padding: 1rem;
+  width: 468px;
+  color: white;
+  font-size: 1rem;
+}
+.newsletter-wrapper .newsletter input::placeholder {
+  color: white;
+  font-size: 1rem;
+}
+.newsletter-wrapper .newsletter .btn {
+  background-color: black;
+  border-radius: 0px;
+  border: none;
+  color: white;
+}
+.newsletter-wrapper .newsletter .btn:hover {
+  background-color: #fff;
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 2rem 0;
+}
+footer a {
+  color: rgba(0, 0, 0, 0.4235294118);
+  text-decoration: none;
+}
+footer a:hover {
+  color: #000000;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,38 @@
+.category-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 5rem auto;
+
+    .h2-title{
+        width: 70%;
+        text-align: center;
+        align-self: center;
+    }
+
+    .categories{
+        display: flex;
+        gap: 2rem;
+        .category{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            align-items: center;
+            padding: 3rem 1rem;
+            background-color: #fff;
+
+            .h3-title{
+                font-size:2rem;
+            }
+
+            .subtitle{
+                text-align: center;
+            }
+
+            img{
+                width: 90px;
+            }
+        }
+    }
+}

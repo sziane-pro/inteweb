@@ -1,0 +1,14 @@
+footer{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    padding: 2rem 0;
+
+    a{
+        color: #0000006c;
+        text-decoration: none;
+        &:hover{
+            color: #000000;
+        }
+    }
+}
